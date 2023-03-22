@@ -7,6 +7,9 @@ display: flex;
   width: 540px;
   position: relative;
 }
+.img1 img{
+  height: 100%;
+}
 .img2{
   flex: 1;
   display: flex;
