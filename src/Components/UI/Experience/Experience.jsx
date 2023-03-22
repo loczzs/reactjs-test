@@ -7,7 +7,9 @@ const Experience = () => {
     divs.push(
       <div key={i} className="Exper_item">
         <div className="content1">
-         
+          <div style={{marginRight:"3px" ,marginTop:"8px"}}>
+          <img src={text} alt="" />
+          </div>
           <div>
             <h2> 家事全般（立位・軽い）</h2>
             <p className="kcal"> 26kcal</p>
