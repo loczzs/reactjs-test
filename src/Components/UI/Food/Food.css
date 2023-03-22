@@ -1,0 +1,55 @@
+.Food{
+    margin-top: 25px;
+    padding: 0px 156px;
+    
+}
+.FoodCotain{
+    display: flex;
+    flex-wrap: wrap
+}
+.food_item{
+    width: 25%;
+    padding: 0px 4px;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.food_item img{
+    width: 100%;
+    height: 100%;
+}
+.Food_content{
+    position: absolute;
+    bottom: 0;
+    padding: 7px 8px;
+    background-color: #FFCC21;
+    width: 120px;
+    
+}
+.Food_content span{
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: 0.15px;
+    color: #FFFF;
+}
+@media only screen and (max-width: 824px) {
+    .food_item{
+        width: 50%;
+        padding: 0px 4px;
+        margin-bottom: 8px;
+        position: relative;
+        
+    }
+    .Food{
+        margin-top: 25px;
+        padding: 0px 0px;
+        
+    }
+    .FoodCotain{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+    }
+  }

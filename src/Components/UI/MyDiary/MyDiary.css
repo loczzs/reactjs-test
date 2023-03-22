@@ -1,0 +1,141 @@
+.MyDiary{
+    margin-top: 56px;
+    padding: 0px 154px;
+}
+.MyDiary h1{
+    margin-left: 6px;
+}
+.MyDiary_contain{
+   
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.MyDiary_col{
+    padding:0px 6px ;
+    width: 25% ;
+    margin-bottom: 12px;
+    
+}
+.MyDiary_Item{
+   
+    border: 2px solid #707070;
+    padding: 16px 15px 27px 16px ;
+}
+.MyDiary_Item h2{
+    
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* or 122% */
+
+letter-spacing: 0.09px;
+
+color: #414141;
+
+}
+.MyDiary_Item p{
+    height: 132px;
+    width: 200px;
+    
+    
+    margin-bottom: 0px;
+    font-family: 'Hiragino Kaku Gothic Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 17px;
+/* or 142% */
+
+letter-spacing: 0.06px;
+
+color: #414141;
+}
+@media only screen and (max-width: 1146px) {
+    .MyDiary{
+        margin-top: 56px;
+        padding: 0px 18px;
+    }
+    .MyDiary h1{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .MyDiary_contain{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+  
+  
+  
+    
+    
+    
+  }
+  @media only screen and (max-width: 652px) {
+    
+    .Experinfo {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+    .Experlist{
+      flex-direction: column;
+    }
+    .nav{
+      display: none !important;
+    }
+    
+  }
+  @media only screen and (max-width: 1005px) {
+    .MyDiary_col{
+        padding:0px 6px ;
+        width: 33.33% ;
+        margin-bottom: 12px;
+        
+    }
+    
+    
+  }
+  @media only screen and (max-width: 767px) {
+    .MyDiary_col{
+        padding:0px 6px ;
+        width: 50% ;
+        margin-bottom: 12px;
+        
+    }
+    
+    
+  }
+  @media only screen and (max-width: 535px) {
+    .MyDiary_Item p{
+        height: auto;
+        width: auto;
+        
+        
+        margin-bottom: 0px;
+        font-family: 'Hiragino Kaku Gothic Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 17px;
+    /* or 142% */
+    
+    letter-spacing: 0.06px;
+    
+    color: #414141;
+    }
+  }
+  
+  @media only screen and (max-width: 497px) {
+    .MyDiary{
+        margin-top: 56px;
+        padding: 0px 0px;
+    }
+  }
+  
+  

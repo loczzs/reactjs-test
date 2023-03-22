@@ -1,0 +1,45 @@
+.footer{
+    margin-top: 64px ;
+    background-color: #414141;
+    padding: 56px 160px;
+}
+.footercontain{
+    display: flex;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+.footercontain p{
+    margin-bottom: 0;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.03px;
+    font-weight: 300;
+    color: white;
+}
+@media only screen and (max-width: 1000px) {
+    .header {
+    width: 100%;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px;
+    background-color: #414141;
+  }
+  .container{
+    width: 90%;
+    margin: auto;
+    background-color: #414141;
+  }
+  .footer{
+    margin-top: 64px ;
+    background-color: #414141;
+    padding: 20px 0px;
+}
+.footercontain{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+}
+  }

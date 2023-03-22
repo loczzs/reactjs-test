@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+}
+.Recommend{
+    
+   
+    padding: 0px 136px
+    
+}
+.RecommendContain{
+    display: flex;  
+    flex-wrap: wrap;
+}
+.Recommend_item{
+    
+    width: 33.33%;
+    padding: 0px 24px;
+}
+.Recommend_card{
+    position: relative;
+    background: #2E2E2E;
+    border: 24px solid #FFCC21;
+
+}
+.Recommend_item div img{
+    width: 100%;
+    
+}
+.Recommend_content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translateX(-50%)  translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Recommend_content h1{
+    
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+/* identical to box height, or 120% */
+
+text-align: center;
+letter-spacing: 0.125px;
+
+color: #FFCC21;
+}
+.Recommend_content div{
+    padding: 3px 0px;
+    margin-top: 11px;
+    width: 160px;
+    background: #FF963C;
+}
+.Recommend_content div p{
+    margin-bottom: 0;
+    text-align: center;
+    color: white;
+    font-family: 'Hiragino Kaku Gothic Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 20px;
+}
+.Recommendimg{
+    padding: 0px 160px;
+    margin-top: 56px;
+}
+.Recommendimg img{
+    width: 100%;
+}
+@media only screen and (max-width: 1146px) {
+    .Recommend_content div{
+        width: 70%;
+    }
+    .Recommend{
+    
+   
+        padding: 0px 0px
+        
+    }
+    .RecommendContain{
+        width: 95%;
+        margin: auto;
+        display: flex;  
+    }
+    .Recommendimg{
+        margin: auto    ;
+        margin-top: 56px;
+        width: 95% ;
+        padding: 0px 24px;
+    }
+  }
+  @media only screen and (max-width: 752px) {
+    
+    .Recommend_item{
+    
+        width: 50% !important;
+        padding: 0px 24px;
+        margin-bottom: 24px;
+    }
+  }
+  @media only screen and (max-width: 497px) {
+    .Recommend_item{
+    
+        width: 50% !important;
+        padding: 0px 4px;
+        margin-bottom: 24px;
+    }
+    .Recommendimg{
+        margin: auto    ;
+        width: 95% ;
+        padding: 0px 4px;
+    }
+    .Recommend_content div p{
+        margin-bottom: 0;
+        text-align: center;
+        color: white;
+        font-family: 'Hiragino Kaku Gothic Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8px;
+    /* line-height: 20px; */
+    }
+  }

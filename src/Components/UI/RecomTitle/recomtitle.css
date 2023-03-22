@@ -1,0 +1,90 @@
+.recomtitle {
+  padding: 0px 144px;
+  margin-top: 56px;
+}
+.recomtitcontain{
+  display: flex;
+}
+.recomtitle_col {
+  padding: 0px 16px;
+  width: 25%;
+}
+.recomtitle_title {
+  width: 100%;
+  background: #2e2e2e;
+  padding: 24px 8px 22px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recomtitle_title h1 {
+  margin-bottom: 0;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  /* or 123% */
+
+  text-align: center;
+  letter-spacing: 0.11px;
+
+  color: #ffcc21;
+  overflow-wrap: break-word;
+}
+.line {
+  margin-top: 10px;
+  width: 56px;
+  background: rgba(0, 0, 0, 0.0001);
+  border: 1px solid #ffffff;
+  margin-bottom: 9px;
+}
+.recomtitle_title p{
+    font-family: 'Hiragino Kaku Gothic Pro';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+@media only screen and (max-width: 1136px) {
+  .recomtitle {
+    padding: 0px 0px;
+    margin-top: 56px;
+  }
+  .recomtitcontain{
+    margin: auto;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+} 
+@media only screen and (max-width: 900px) {
+  .recomtitle_col {
+    padding: 0px 4px;
+    
+  }
+} 
+@media only screen and (max-width: 900px) {
+  .recomtitle_col {
+    padding: 0px 16px;
+    width: 50%;
+    margin-bottom: 16px;
+  }
+} 
+@media only screen and (max-width: 444px) {
+  .recomtitle_col {
+    padding: 0px 4px;
+    width: 50%;
+    margin-bottom: 16px;
+    
+  }
+  .recomtitle_title h1{
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,147 @@
+.header {
+  width: 100%;
+  z-index: 99;
+  
+  padding: 0px 160px;
+  background-color: #414141;
+}
+
+.notification {
+  position: relative;
+}
+.count {
+  position: absolute;
+  top: -10%;
+  right: 20%;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.active {
+  color: #e78c3c !important;
+}
+.nav__list {
+  height: 100%;
+  display: flex;
+  column-gap: 2.7rem;
+  margin-bottom: 0px;
+}
+.nav__item {
+  
+  text-decoration: none;
+  list-style: none;
+  
+}
+
+.nav__item a {
+  
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.nav__item a:hover {
+  color: #fff;
+}
+.nav__item a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.nav__item a:hover {
+  color: #fff;
+}
+
+.logo h2 {
+  background: linear-gradient(-45deg, #e250e5, #4b50e6, #e250e5, #4b50e6);
+  background-size: 100% 100%;
+  background-clip: text;
+  -webkit-text-stroke: 3px transparent;
+  -webkit-text-fill-color: #14141f;
+  margin-bottom: 0;
+}
+
+.nav__right .btn {
+  padding: 7px 25px;
+  border: 1px solid #5142fc;
+  border-radius: 50px;
+}
+
+.nav__right .btn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.8rem;
+  display: inline-block;
+}
+
+.nav__right .btn span i {
+  color: #fff;
+}
+
+.nav__right .btn a:hover {
+  color: #fff;
+}
+
+.mobile__menu {
+  color: #fff;
+  font-size: 1.3rem;
+  display: none;
+}
+.Menu {
+  list-style: none;
+}
+.menucontain {
+  position: relative;
+}
+.headNav {
+  z-index: 100;
+  position: absolute;
+  top: 90%;
+  right: 0;
+  width: 200px;
+  background-color: red;
+  color: red;
+}
+.headNavitem {
+  background: #777777;
+  padding: 23px 32px;
+  border-bottom: 1px solid #868686;
+}
+.headNavitem span {
+  font-family: "Hiragino Kaku Gothic Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1145px) {
+  .header {
+    width: 100%;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px;
+    background-color: #414141;
+  }
+  .container {
+    width: 90%;
+    margin: auto;
+    background-color: #414141;
+  }
+}
+@media only screen and (max-width: 784px) {
+  .nav__item,
+  .nav__itemz {
+    display: none;
+  }
+}
